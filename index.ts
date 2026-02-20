@@ -6,7 +6,10 @@ import { Resend } from "resend";
 const app = express();
 
 const corsOptions = {
-  origin: ["http://localhost:8080"],
+  origin: [
+    "http://localhost:8080",
+    "https://liaragvportfolio.netlify.app",
+  ],
   methods: ["GET", "POST", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
 };
@@ -43,6 +46,8 @@ app.post("/api/send-email", async (req, res) => {
   }
 });
 
-app.listen(3001, () => {
-  console.log("API running on http://localhost:3001");
+const PORT = Number(process.env.PORT) || 3001;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`API running on port ${PORT}`);
 });
