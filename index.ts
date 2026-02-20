@@ -17,6 +17,10 @@ app.use(express.json());
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+app.get("/", (_req, res) => {
+  res.status(200).json({ ok: true, service: "portfolio-api" });
+});
+
 app.post("/api/send-email", async (req, res) => {
   try {
     const { name, email, message } = req.body;
