@@ -29,11 +29,6 @@ export default function HeroSection() {
       />
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 text-primary text-sm font-mono mb-8 animate-fade-in">
-          <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-          Disponível para novos projetos
-        </div>
 
         {/* Headline */}
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight animate-fade-up">
@@ -46,7 +41,7 @@ export default function HeroSection() {
         <div className="flex items-center justify-center gap-3 mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
           <Terminal className="w-5 h-5 text-primary" />
           <p className="text-xl md:text-2xl text-muted-foreground font-mono">
-            Full Stack Developer
+            Full Stack Developer | Palestrante | Criadora de Conteúdo
           </p>
         </div>
 

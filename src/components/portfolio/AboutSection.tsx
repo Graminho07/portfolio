@@ -39,9 +39,9 @@ export default function AboutSection() {
                 preocupo com a experiência do usuário final.
               </p>
               <p>
-                Quando não estou codando, estou aprendendo algo novo, contribuindo
-                para projetos open source ou tomando café enquanto leio sobre
-                as últimas tendências em tecnologia.
+                Quando não estou trabalhando, estou aprendendo algo novo, criando novos
+                conteúdos para o meu Instagram profissional, trabalhando em algum projeto
+                pessoal ou formulando novas ideias para as minhas palestras.
               </p>
             </div>
 

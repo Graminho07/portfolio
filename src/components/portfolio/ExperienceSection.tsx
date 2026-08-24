@@ -13,7 +13,7 @@ const experiences = [
   {
     role: "Estudante - Faculdade",
     company: "Estácio",
-    period: "2024 - Presente",
+    period: "2024 - 2027",
     description:
       "Após o Ensino Médio, decidi que gostaria de fazer Ciência da Computação, e atualmente estou cursando o 5° período, onde eu tenho estudado muito por fora da faculdade, com a ajuda sempre presente do meu mentor particular.",
     tags: ["Ciência da Computação"],
@@ -40,11 +40,11 @@ const experiences = [
   {
     role: "Dev Júnior",
     company: "Orsegups",
-    period: "Dezembro 2025 - Atualmente",
+    period: "Dezembro 2025 - Agosto 2026",
     description:
-      "Atualmente atuo como desenvolvedora júnior, com foco em desenvolvimento backend utilizando Java e Spring Boot, Participo ativamente do ciclo de desenvolvimento, desde a análise de requisitos até a implementação e manutenção de sistemas, buscando sempre entregar soluções eficientes e de alta qualidade.",
-    tags: ["Java", "Spring Boot", "Git"],
-    current: true,
+      "Desenvolvedora júnior, com foco em desenvolvimento backend utilizando Java, Spring Boot e AWS. Atuei no sistema principal de atendimento da empresa, contribuindo para a implementação de novas funcionalidades e melhorias no sistema. Trabalhei em colaboração com a equipe de desenvolvimento para garantir a qualidade do código e a entrega de soluções eficientes.",
+    tags: ["Java", "Spring Boot", "AWS", "Git"],
+    current: false,
   },
 ];
 
